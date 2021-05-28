@@ -1,0 +1,228 @@
+.navigation
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+}
+.container-ul
+{
+    margin: 0;
+    padding: 8;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.container-li
+{
+    display: inline;
+    padding: 10;
+    float: right;
+}
+.container-li:hover{
+    background-color: #37dcd2;
+    border-radius: 5px;
+}
+.container-li-1
+{
+    margin: 0;
+    padding: 5px;
+    text-decoration: none;
+    position: fixed;
+    z-index: 10;
+    background-color: turquoise;
+    position: absolute;
+    border-radius: 30px;
+}
+.container-li-1:hover{
+background-color: white;
+}
+#Home{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700;
+    background: linear-gradient(to right, black,rgb(17, 200, 233));
+}
+.heading-1{
+    color: white;
+    padding-top: 100px;
+    display: none;
+}
+#Gallery{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 700;
+}
+#Contact{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#017bff;
+    height: 700;
+    display: flex;
+    justify-content: space-around;
+}
+#Services{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:#f5f6fa;
+    opacity: .8;
+    height: 700;
+}
+#About{
+    margin: 0;
+    padding: 0;
+    height: 30%;
+    width: 100%;
+    background-color:#002240;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+}
+/*.Banner1{
+
+    width: 100%;
+    height: 700;
+    position: absolute;
+    background: linear-gradient(to right, black,rgb(17, 200, 233));
+    opacity: .1;
+}*/
+.profile-image{
+    height: 500;
+    width: 300;
+}
+
+.contact-head{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.contact-info{
+    margin: 0;
+    padding-left: 35px;
+    width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
+    color: white;
+    padding-top: 100px;
+}
+.para-class{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+.friend-para
+{
+    margin: 0;
+    padding: left 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+    width: 700px;
+    color: wheat;
+}
+.form-div
+{
+    padding-top: 100px;
+    padding-right: 100px;
+}
+.form-boost{
+    float: right;
+    width: 400;
+    height: 500;
+    padding: 45px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.a-link{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    padding: 15px;
+    
+}
+.a-link:hover{
+    text-decoration: none;
+    color: #002240;
+}
+.center
+{
+    text-align: center;
+    padding: 30;
+}
+.services-box
+{
+    display: flex;
+    justify-content: space-around;
+}
+.gallery-div
+{
+    display: flex;
+   justify-content: space-around;
+}
+.Profile-area
+{
+    height: 500;
+    width: 60%;
+    background-color: orangered;
+    border-radius: 20px;
+    display: none;
+}
+.card-style{
+    width: 10rem;
+    height: 10rem;
+}
+
+.About-flexbox{
+    display: flex;
+    justify-content: space-around;
+    color: #37dcd2;
+    padding-top: 100;
+
+}
+.social-media-follow{
+    width: 200;
+    display: flex;
+    justify-content: space-around;
+    color: #37dcd2
+}
+.copy-right{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-style: oblique;
+    font-weight: 400;
+    padding: 0;
+}
+.follow-us{
+    padding-left: 25px;
+}
+.button-1{
+    padding-top: 20%;
+}
+.mydiv{
+    height: 100;
+    width: 100;
+    background-color: blanchedalmond;
+    display: none;
+}
