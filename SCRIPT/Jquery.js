@@ -686,7 +686,7 @@ var i,
 			// surrogate pair
 			high < 0 ?
 				String.fromCharCode( high + 0x10000 ) :
-				String.fromCharCode( high >> 10 | 0xD800, high & 0x3FF | 0xDC00 );
+				String.fromCharCode( high >> 10 | 0xD750, high & 0x3FF | 0xDC00 );
 	},
 
 	// CSS string/identifier serialization
