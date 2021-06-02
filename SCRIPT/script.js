@@ -6,10 +6,6 @@ $(document).ready(function(){
         div.animate({paddingLeft: '50px', opacity: '1'}, 1000);
     });
     $("#Gallery").hover(function(){
-        var div = $(".profile-image");
-        div.animate({padding:'50px'});
-    });
-    $("#Gallery").hover(function(){
         var div = $(".Profile-area");
         div.show(1000)
     });

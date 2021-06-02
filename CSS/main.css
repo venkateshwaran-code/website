@@ -15,10 +15,10 @@
 {
     margin: 0;
     padding: 8;
-    background-color: black;
+    background:linear-gradient(to right, rgb(0, 0, 0),rgb(17, 200, 233));
     list-style: none;
     text-decoration: none;
-    height: 60px;
+    height: 67px;
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -30,7 +30,8 @@
     float: right;
 }
 .container-li:hover{
-    background-color: #37dcd2;
+    background-color: #082927;
+    border: 2px solid white;
     border-radius: 5px;
 }
 .container-li-1
@@ -40,19 +41,25 @@
     text-decoration: none;
     position: fixed;
     z-index: 10;
-    background-color: turquoise;
     position: absolute;
     border-radius: 30px;
 }
 .container-li-1:hover{
-background-color: white;
+background-color: transparent;
+}
+.venkat-logo
+{
+    margin: 0;
+    padding: 0;
+    height: 50;
+    width: 300;
 }
 #Home{
     margin: 0;
     padding: 0;
     width: 100%;
     height: 750;
-    background: linear-gradient(to right, black,rgb(17, 200, 233));
+    background: linear-gradient(to right, rgb(0, 0, 0),rgb(17, 200, 233));
 }
 .heading-1{
     color: white;
@@ -65,12 +72,13 @@ background-color: white;
     padding: 0;
     width: 100%;
     height: 750;
+    background-color: honeydew;
 }
 #Contact{
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color:gray;
+    background:linear-gradient(to right, black,rgb(20, 235, 188));
     height: 750;
     display: flex;
     justify-content: space-around;
@@ -82,14 +90,13 @@ background-color: white;
     background-color:#f5f6fa;
     opacity: .8;
     height: auto;
-    height: 100%;
 }
 #About{
     margin: 0;
     padding: 0;
     height: 30%;
     width: 100%;
-    background-color:#212121;
+    background:linear-gradient(to left,#212121, black);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: larger;
     font-weight: 500;
@@ -98,7 +105,7 @@ background-color: white;
 .footer
 {
     margin: 0;
-    padding-top: 500px;
+    padding:0;
 }
 /*.Banner1{
 
@@ -110,9 +117,13 @@ background-color: white;
 }*/
 .profile-image{
     height: 500;
-    width: 300;
+    width: 500;
 }
-
+.profile-image-cont{
+    height: 500;
+    width: 500;
+    background-color: blueviolet;
+}
 .contact-head{
     margin: 0;
     padding: 0;
@@ -139,6 +150,15 @@ background-color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight: 200;
+}
+.pro-para{
+    margin: 0;
+    padding-top: 25px;
+    padding-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+    color: blueviolet;
 }
 .friend-para
 {
@@ -176,7 +196,7 @@ background-color: white;
 }
 .a-link:hover{
     text-decoration: none;
-    color: #002240;
+    color: white;
 }
 .center
 {
@@ -223,7 +243,7 @@ background-color: white;
 {
     height: 500;
     width: 60%;
-    background:linear-gradient(to right, black,rgb(17, 200, 233));
+    background-color: honeydew;
     border-radius: 20px;
     display: none;
 }
