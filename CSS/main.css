@@ -71,7 +71,7 @@ background-color: transparent;
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 750;
+    height: auto;
     background-color: honeydew;
 }
 #Contact{
@@ -79,7 +79,7 @@ background-color: transparent;
     padding: 0;
     width: 100%;
     background:linear-gradient(to right, black,rgb(20, 235, 188));
-    height: 750;
+    height: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -265,6 +265,13 @@ background-color: transparent;
     justify-content: space-around;
     color: #B0B0B0;
 }
+.social-media-follow-black
+{
+    width: 200;
+    display: flex;
+    justify-content: space-around;
+    color: black; 
+}
 .copy-right{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
@@ -272,8 +279,10 @@ background-color: transparent;
     font-weight: 400;
     padding: 0;
 }
-.follow-us{
-    padding-left: 25px;
+.copy-right
+{
+    align-items: center;
+    padding: 5px;
 }
 .button-1{
     padding-top: 20%;
@@ -288,17 +297,178 @@ background-color: transparent;
 
 
 /* CSS Responsive*/
-@media only screen and (max-width:768px){
-    #About{width: 768px;}
-    .About-flexbox{width: 768px; height: 10px; margin:0;padding-left: 45px; padding: top 25px; display: flex;}
-    .copy-right .follow-us{width: auto; display: list-item;}
-    #services{height: 550px;width: 768px;}
-    #Contact{height: 600px;width: 768px; display: block;}
-    .contact-info{margin: 0;padding-left:0;width:100%;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size:medium;font-weight: 500;color: white;padding-top: 0px;}
-    .form-div{margin: 0;padding-top:1px;padding-left:250px;padding-top:5px;float: left;}
-    .form-boost{width: 300;height: 380;padding-top:0px;padding-left:20px;padding-right:20px;border-radius: 5px;background-color: white;border: 2px solid white;}
-    .para-class{margin: 0; padding:10px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: 20px;font-weight: 200;}
-    .center{padding-top:20%;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: x-large; font-weight: 600;}
-    #Gallery{height: 600px;width: 768px;}
-    .gallery-div{display: block;}
+@media only screen and (max-width:350px){
+
+    #about{
+        margin: 0;
+        height: 500px;
+        width: 350px;
+    }
+    .About-flexbox{
+        display: block;
+        flex-direction: row-reverse;
+        justify-content: center;
+        color: #B0B0B0;
+        align-items: center;
+        padding-left: 20;
+    
+    }
+    .copy-right
+    {
+        font-size: 16px;
+    }
+    .venkat-logo
+    {
+    margin: 0;
+    padding: 0;
+    height: 40;
+    width: 200;
+    }
+    .follow-us
+    {
+        align-items: center;
+        font-size: 18px;
+    }
+
+
+    #Services
+    {
+        margin: 0;
+    }
+    #Contact{
+        margin: 0;
+        padding: 0;
+        width: auto;
+        background:linear-gradient(to right, black,rgb(20, 235, 188));
+        height: auto;
+        display: block;
+    }
+    .form-div
+    {
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+    .form-boost{
+        width: 200;
+        height: 380;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: white;
+        border: 2px solid white;
+    }
+    .contact-info{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        font-weight: 300;
+        color: white;
+        padding-top: 50px;
+    }
+
+    .gallery-div
+    {
+        display: block;
+    }
+    .Profile-area
+    {
+        height: auto;
+        width: 100%;
+        background-color: honeydew;
+        border-radius: 5px;
+    }
+    .profile-image{
+        height:200;
+        width: 200;
+    }
+    .profile-image-cont{
+        height: 200;
+        width: 200;
+        background-color: blueviolet;
+    }
+}
+
+
+
+@media only screen and (max-width:750px){
+
+    #about{
+        margin: 0;
+        height: auto;
+    }
+    .About-flexbox{
+        display: block;
+        flex-direction: row-reverse;
+        justify-content: center;
+        color: #B0B0B0;
+        align-items: center;
+    
+    }
+    .copy-right
+    {
+        font-size: 20px;
+        text-align: center;
+    }
+    .venkat-logo
+    {
+    margin: 0;
+    padding: 0;
+    height: 50;
+    width: 250;
+    }
+    .follow-us
+    {
+        align-items: center;
+        font-size: 25px;
+        text-align: center;
+    }
+    .social-media-follow
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Services
+    {
+        margin: 0;
+    }
+    #Contact{
+        margin: 0;
+        display: block;
+        height: 1000px;
+    }
+    .contact-info{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        font-weight: 300;
+        color: white;
+        padding-top: 50px;
+    }
+    .gallery-div
+    {
+        display: block;
+    }
+    .Profile-area
+    {
+        height: auto;
+        width: 100%;
+        background-color: honeydew;
+        border-radius: 5px;
+    }
+    .profile-image{
+        align-items: center;
+        height: 350;
+        width: 350;
+    }
+    .profile-image-cont{
+        align-items: center;
+        height: 350;
+        width: 350;
+        background-color: blueviolet;
+    }
 }
